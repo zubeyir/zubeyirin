@@ -5,6 +5,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: typewriter.jpg
 ---
+
 # Merhaba, ben Zübeyir
 
 Nörobilim, veri analizi ve programlama ilgi alanlarım. Biyoinformatik ve veri analizi konusunda bilgimi geliştirmeye çalışıyorum. R ve Python gibi programlama dillerini öğreniyorum.
