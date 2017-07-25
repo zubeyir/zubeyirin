@@ -1,0 +1,67 @@
+title:            zubeyir
+tagline:          baba
+description:      Adventures of a man running into 40s
+canonical: http://zubeyir.in
+
+# Owner/author information
+owner:
+  name:           Zübeyir Bayraktaroğlu
+  avatar:         avatar.png
+  bio:            "Researcher, Lecturer, Explorer"
+  email:          zubbay@gmail.com
+  twitter:        zubbay
+  github:         zubeyir
+#  instagram:      ctrunsthis
+#  dribbble:       coletownsend
+#  disqus:         zubeyir
+  location:       "Istanbul, Turkey"
+  # Plug in your disqus shortname!
+
+tools:
+  standards:      "HTML, SCSS, Jekyll"
+  software:       "git"
+
+# Open Graph customization
+opengraph:
+  locale:           tr_TR
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Hakkımda
+    url: /about
+  - title: Github
+    url: https://github.com/zubeyir
+    external: true
+  - title: eksi1arti5
+    url: http://eksi1arti5.com
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Turkey/Istanbul
+future:      true
+highlighter: rouge
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+sass:
+    style: :compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
